@@ -30,7 +30,6 @@ header("Content-Type:application/json");
             "github_repo_url" =>"https://github.com/chriswax/hngx",
             "status_code" =>200
         ];
-
         echo json_encode($data);
     }
 
